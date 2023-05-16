@@ -34,6 +34,10 @@ const pecas = {
     }
 }
 
+function trocarRobo(cor) {
+    document.querySelector('.robo').src='img/robotron-' + cor + '.png';
+}
+
 controle.forEach( (elemento) => {
     elemento.addEventListener('click', (evento) => {
         manipulaDados(evento.target.dataset.controle, evento.target.parentNode);

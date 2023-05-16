@@ -2,6 +2,10 @@
     --main-cinza: #CCCCCC;
     --main-branco: #FFFFFF;
     --main-preto: #000000;
+    --main-azul: #00CCFF;
+    --main-amarelo: #CCCC00;
+    --main-rosa: #FFCCCC;
+    --main-vermelho: #FF0000;
 }
 
 * {
@@ -29,6 +33,17 @@ main {
     gap: 1vw;
 }
 
+.alterar {
+    width: 135px;
+    margin: 2px;
+}
+
+.botoes {
+    position: relative;
+    right: 5%;
+    bottom: 10%;
+}
+
 .robotron {
     background: url(../img/estrutura.png) no-repeat;
     background-position: center center;
@@ -38,11 +53,11 @@ main {
 }
 
 .robo {
-    height: 110%;
+    height: 100%;
     z-index: 1;
     position: absolute;
     left: -20%;
-    top: -5%;
+    top: 0%;
 }
 
 .titulo {
@@ -207,6 +222,88 @@ main {
     order: 1;
     flex-basis: 35%;
     margin: 10px 0 0;
+}
+
+/****************************** Botões de Cor *****/
+
+#btnAzul {
+    text-transform: uppercase;
+    float: left;
+    color: var(--main-azul);
+    border: 1px solid var(--main-branco);
+    background: var(--main-branco);
+    clip-path: polygon(100% 0, 100% calc(100% - 15px), calc(100% - 10px) 100%, 0 100%, 0 0);
+    cursor: pointer;
+}
+
+#btnAzul:hover {
+    color: var(--main-branco);
+    border-color: var(--main-azul);
+    background: var(--main-azul);
+}
+
+#btnAmarelo {
+    text-transform: uppercase;
+    float: left;
+    color: var(--main-amarelo);
+    border: 1px solid var(--main-branco);
+    background: var(--main-branco);
+    clip-path: polygon(100% 0, 100% calc(100% - 15px), calc(100% - 10px) 100%, 0 100%, 0 0);
+    cursor: pointer;
+}
+
+#btnAmarelo:hover {
+    color: var(--main-branco);
+    border-color: var(--main-amarelo);
+    background: var(--main-amarelo);
+}
+
+#btnAzul {
+    text-transform: uppercase;
+    float: left;
+    color: var(--main-azul);
+    border: 1px solid var(--main-branco);
+    background: var(--main-branco);
+    clip-path: polygon(100% 0, 100% calc(100% - 15px), calc(100% - 10px) 100%, 0 100%, 0 0);
+    cursor: pointer;
+}
+
+#btnAzul:hover {
+    color: var(--main-branco);
+    border-color: var(--main-azul);
+    background: var(--main-azul);
+}
+
+#btnAzul {
+    text-transform: uppercase;
+    float: left;
+    color: var(--main-azul);
+    border: 1px solid var(--main-branco);
+    background: var(--main-branco);
+    clip-path: polygon(100% 0, 100% calc(100% - 15px), calc(100% - 10px) 100%, 0 100%, 0 0);
+    cursor: pointer;
+}
+
+#btnAzul:hover {
+    color: var(--main-branco);
+    border-color: var(--main-azul);
+    background: var(--main-azul);
+}
+
+#btnAzul {
+    text-transform: uppercase;
+    float: left;
+    color: var(--main-azul);
+    border: 1px solid var(--main-branco);
+    background: var(--main-branco);
+    clip-path: polygon(100% 0, 100% calc(100% - 15px), calc(100% - 10px) 100%, 0 100%, 0 0);
+    cursor: pointer;
+}
+
+#btnAzul:hover {
+    color: var(--main-branco);
+    border-color: var(--main-azul);
+    background: var(--main-azul);
 }
 
 @media screen and (max-width: 1600px) {
