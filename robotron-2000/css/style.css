@@ -258,52 +258,68 @@ main {
     background: var(--main-amarelo);
 }
 
-#btnAzul {
+#btnBranco {
     text-transform: uppercase;
     float: left;
-    color: var(--main-azul);
+    color: var(--main-branco);
+    border: 1px solid var(--main-cinza);
+    background: var(--main-cinza);
+    clip-path: polygon(100% 0, 100% calc(100% - 15px), calc(100% - 10px) 100%, 0 100%, 0 0);
+    cursor: pointer;
+}
+
+#btnBranco:hover {
+    color: var(--main-preto);
+    border-color: var(--main-branco);
+    background: var(--main-branco);
+}
+
+#btnPreto {
+    text-transform: uppercase;
+    float: left;
+    color: var(--main-preto);
     border: 1px solid var(--main-branco);
     background: var(--main-branco);
     clip-path: polygon(100% 0, 100% calc(100% - 15px), calc(100% - 10px) 100%, 0 100%, 0 0);
     cursor: pointer;
 }
 
-#btnAzul:hover {
+#btnPreto:hover {
     color: var(--main-branco);
-    border-color: var(--main-azul);
-    background: var(--main-azul);
+    border-color: var(--main-preto);
+    background: var(--main-preto);
 }
 
-#btnAzul {
+#btnRosa {
     text-transform: uppercase;
     float: left;
-    color: var(--main-azul);
+    color: var(--main-rosa);
     border: 1px solid var(--main-branco);
     background: var(--main-branco);
     clip-path: polygon(100% 0, 100% calc(100% - 15px), calc(100% - 10px) 100%, 0 100%, 0 0);
     cursor: pointer;
 }
 
-#btnAzul:hover {
+#btnRosa:hover {
     color: var(--main-branco);
-    border-color: var(--main-azul);
-    background: var(--main-azul);
+    border-color: var(--main-rosa);
+    background: var(--main-rosa);
 }
 
-#btnAzul {
+#btnVermelho {
     text-transform: uppercase;
     float: left;
-    color: var(--main-azul);
+    color: var(--main-vermelho);
     border: 1px solid var(--main-branco);
     background: var(--main-branco);
     clip-path: polygon(100% 0, 100% calc(100% - 15px), calc(100% - 10px) 100%, 0 100%, 0 0);
     cursor: pointer;
 }
 
-#btnAzul:hover {
+#btnVermelho:hover {
     color: var(--main-branco);
-    border-color: var(--main-azul);
-    background: var(--main-azul);
+    border-color: var(--main-vermelho);
+    background: var(--main-vermelho);
 }
 
 @media screen and (max-width: 1600px) {

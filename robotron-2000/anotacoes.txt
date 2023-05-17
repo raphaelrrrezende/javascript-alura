@@ -1,0 +1,24 @@
+<section class="botoes">
+    <button id="btnAzul" class="alterar" onclick="trocarRobo('Azul')">Robotron Azul</button>
+    <button id="btnAmarelo" class="alterar" onclick="trocarRobo('Amarelo')">Robotron Amarelo</button>
+    <button id="btnBranco" class="alterar" onclick="trocarRobo('Branco')">Robotron Branco</button>
+    <button id="btnPreto" class="alterar" onclick="trocarRobo('Preto')">Robotron Preto</button>
+    <button id="btnRosa" class="alterar" onclick="trocarRobo('Rosa')">Robotron Rosa</button>
+    <button id="btnVermelho" class="alterar" onclick="trocarRobo('Vermelho')">Robotron Vermelho</button>
+</section>
+
+#btnAzul {
+    text-transform: uppercase;
+    float: left;
+    color: var(--main-azul);
+    border: 1px solid var(--main-branco);
+    background: var(--main-branco);
+    clip-path: polygon(100% 0, 100% calc(100% - 15px), calc(100% - 10px) 100%, 0 100%, 0 0);
+    cursor: pointer;
+}
+
+#btnAzul:hover {
+    color: var(--main-branco);
+    border-color: var(--main-azul);
+    background: var(--main-azul);
+}
