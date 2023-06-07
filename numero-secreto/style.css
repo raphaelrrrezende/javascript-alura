@@ -46,3 +46,55 @@ h3 {
     border: 2px solid var(--primary-color);
     margin: 20px;
 }
+
+.btn-jogar {
+    background: var(--primary-color);
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-jogar:hover {
+    color: var(--primary-color);
+    background: var(--bg-color);
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-jogar:active {
+    color: var(--primary-color);
+    background: var(--bg-color);
+    padding: 8px 15px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-jogar-game-over {
+    background: #ffffff;
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-jogar-game-over:hover {
+    color: #ffffff;
+    background: #000000;
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-jogar-game-over:active {
+    color: #ffffff;
+    background: #000000;
+    padding: 8px 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
