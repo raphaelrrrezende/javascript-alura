@@ -1,0 +1,22 @@
+{
+  "name": "javascript-alura",
+  "version": "1.0.0",
+  "description": "Curso de JavaScript da Alura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaelrrrezende/javascript-alura.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raphaelrrrezende/javascript-alura/issues"
+  },
+  "homepage": "https://github.com/raphaelrrrezende/javascript-alura#readme",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
