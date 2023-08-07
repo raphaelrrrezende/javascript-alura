@@ -9,7 +9,7 @@
   }
   
   .dark-mode {
-    --bg-cor: black;
+    --bg-cor: #000000;
     --fonte-cor: #ffffff;
     --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/sol.png");
     --trono-img: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/trono-branco.png");
