@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,400&display=swap');
+
+:root {
+    --cor-fundo: #0a0b1a;
+    --cor1: #323980;
+    --cor2: #4B56BF;
+    --cor3: #6473FF;
+
+    --fonte-principal: 'Inter', sans-serif;
+    --fonte-logo: 'PT Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    background-image: linear-gradient(#000000, var(--cor-fundo));
+}
+
+.cabecalho-logo {
+    font-family: var(--fonte-logo);
+    font-size: 3.5em;
+    margin-top: 10px;
+}
+
+.logo-inicio {
+    color: var(--cor1);
+    font-weight: 700;
+}
+
+.logo-final {
+    color: var(--cor2);
+    font-weight: 400;
+    font-style: italic;
+}
+
+.botao-assine, .botao-entrar {
+    font-size: 1.4em;
+    padding: 8px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.botao-assine {
+    color: var(--cor3);
+    background-color: var(--cor1);
+    border: 1px solid var(--cor1);
+}
+
+.botao-assine:hover {
+    cursor: pointer;
+    color: var(--cor1);
+    background-color: var(--cor3);
+    border: 1px solid var(--cor3);
+}
+
+.botao-entrar {
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+
+.botao-entrar:hover {
+    cursor: pointer;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
