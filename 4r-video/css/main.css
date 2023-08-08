@@ -17,6 +17,48 @@
 }
 
 body {
+    color: #ffffff;
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
     padding: 0;
     margin: 0;
+}
+
+/* ---------- Apresentação ---------- */
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4em;
+}
+
+#apresentacao-top {
+    border-top: 8px solid var(--cor1);
+}
+
+.apresentacao-card {
+    padding: 50px 25px;
+    border-bottom: 8px solid var(--cor1);
+}
+
+.apresentacao-direita {
+    text-align: right;
+}
+
+/* ---------- Planos ---------- */
+
+.planos {
+    display: grid;
+}
+
+.planos-tabela {
+    text-align: center;
+}
+
+table {
+    border: 1px solid var(--cor-fundo);
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
 }
