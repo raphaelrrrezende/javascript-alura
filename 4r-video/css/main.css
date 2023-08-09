@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url(header.css);
+@import url(footer.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,400&display=swap');
 
@@ -13,7 +15,7 @@
 }
 
 * {
-    transition: 0.4s;
+    transition: 0.25s;
 }
 
 body {
@@ -31,17 +33,29 @@ body {
     font-size: 1.4em;
 }
 
-#apresentacao-top {
+.apresentacao-top {
     border-top: 8px solid var(--cor1);
 }
 
 .apresentacao-card {
-    padding: 50px 25px;
+    padding: 140px 25px;
     border-bottom: 8px solid var(--cor1);
 }
 
 .apresentacao-direita {
     text-align: right;
+}
+
+#apresentacao-um {
+    background-image: url("../images/apresentacao-imagem-um.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#apresentacao-dois {
+    background-image: url("../images/apresentacao-imagem-dois.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* ---------- Planos ---------- */
@@ -60,5 +74,20 @@ table {
 }
 
 th, td {
-    border: 1px solid white;
+    font-size: 1.4em;
+    padding: 25px 10px;
+}
+
+th {
+    color: var(--cor2);
+    font-weight: 900;
+}
+
+td {
+    border-top: 3px solid var(--cor1);
+}
+
+.planos-topico {
+    color: var(--cor2);
+    font-weight: 900;
 }

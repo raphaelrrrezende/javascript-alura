@@ -2,16 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,400&display=swap');
 
-:root {
-    --cor-fundo: #0a0b1a;
-    --cor1: #323980;
-    --cor2: #4B56BF;
-    --cor3: #6473FF;
-
-    --fonte-principal: 'Inter', sans-serif;
-    --fonte-logo: 'PT Sans', sans-serif;
-}
-
 header {
     display: flex;
     height: 100px;
@@ -41,6 +31,7 @@ header {
     padding: 8px;
     border-radius: 10px;
     margin-top: 25px;
+    margin-right: 15px;
 }
 
 .botao-assine {
