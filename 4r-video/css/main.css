@@ -6,6 +6,7 @@
 
 :root {
     --cor-fundo: #0a0b1a;
+    --cor-footer: #14141e;;
     --cor1: #323980;
     --cor2: #4B56BF;
     --cor3: #6473FF;
@@ -27,6 +28,15 @@ body {
 }
 
 /* ---------- Apresentação ---------- */
+#fundo-inicio {
+    text-align: center;
+    font-size: 1.8em;
+    background-image: url("../images/imagem-inicial.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 280px 25px;
+}
+
 .apresentacao {
     display: flex;
     flex-direction: column;
@@ -58,14 +68,53 @@ body {
     background-size: cover;
 }
 
+#apresentacao-tres {
+    background-image: url("../images/apresentacao-imagem-tres.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* ---------- Planos ---------- */
 
 .planos {
     display: grid;
 }
 
+.titulo-planos {
+    font-size: 2em;
+    padding: 20px 20px 0 20px;
+}
+
 .planos-tabela {
     text-align: center;
+}
+
+.planos-botao {
+    font-size: 1.3em;
+    color: var(--cor-fundo);
+    background-color: var(--cor1);
+    padding: 8px;
+    border: 2px solid var(--cor1);
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+#planos-botao-um {
+    cursor: pointer;
+}
+
+#planos-botao-dois:hover {
+    cursor: pointer;
+    background-color: var(--cor2);
+    border: 2px solid var(--cor2);
+}
+
+#planos-botao-tres:hover {
+    cursor: pointer;
+    background-color: var(--cor2);
+    box-shadow: 0 0 20px var(--cor3);
+    border: 2px solid var(--cor2);
 }
 
 table {

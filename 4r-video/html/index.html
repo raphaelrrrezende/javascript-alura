@@ -30,8 +30,9 @@
     <!-- Conteúdo -->
     <main class="conteudo-inicial">
 
-        <!--<img src="../images/fundo.jpg" alt="Fundo inicial" class="apresentacao-fundo" width="1300px" height="700">-->
-        <h1>Assista filmes, séries e documentários onde e quando quiser!</h1>
+        <section id="fundo-inicio">
+            <h1>Assista filmes, séries e documentários onde e quando quiser!</h1>
+        </section>
 
         <!-- Apresentação -->
         <section class="apresentacao">
@@ -59,9 +60,9 @@
                 <thead class="planos-opcoes">
                     <tr>
                         <th>&nbsp;</th>
-                        <th>Básico</th>
-                        <th>Padrão</th>
-                        <th>Premium</th>
+                        <th><button id="planos-botao-um" class="planos-botao">Básico</button></th>
+                        <th><button id="planos-botao-dois" class="planos-botao">Padrão</button></th>
+                        <th><button id="planos-botao-tres" class="planos-botao">Premium</button></th>
                     </tr>
                 </thead>
                 <tbody class="planos-especificacoes">
@@ -98,48 +99,55 @@
     <footer class="rodape">
 
         <!-- Empresa -->
-        <section class="rodape-empresa">
-            <h2 class="rodape-titulo">A empresa</h2>
-            <ul class="lista-rodape">
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Perguntas frequentes</a></li>
-                <li><a href="#">Informações corporativas</a></li>
-                <li><a href="#">Nossos serviços</a></li>
-            </ul>
+        <section id="rodape-listas">
+            <section class="rodape-empresa">
+                <h2 class="rodape-titulo">A empresa</h2>
+                <ul class="lista-rodape">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Perguntas frequentes</a></li>
+                    <li><a href="#">Informações corporativas</a></li>
+                    <li><a href="#">Nossos serviços</a></li>
+                </ul>
+            </section>
+            <!-- Site -->
+            <section class="rodape-site">
+                <h2 class="rodape-titulo">O site</h2>
+                <ul class="lista-rodape">
+                    <li><a href="#">Conta</a></li>
+                    <li><a href="#">Termos de uso</a></li>
+                    <li><a href="#">Teste de velocidade</a></li>
+                    <li><a href="#">Preferências de cookies</a></li>
+                </ul>
+            </section>
+            <!-- Contato -->
+            <section class="rodape-contato">
+                <h2 class="rodape-titulo">Contatos</h2>
+                <ul class="lista-rodape">
+                    <li><a href="#">0800 323 289 21</a></li>
+                    <li><a href="#">0800 263 856 04</a></li>
+                    <li><a href="#">central@4rvideo.com.br</a></li>
+                    <li><a href="#">ouvidoria@4rvideo.com.br</a></li>
+                </ul>
+            </section>
+            <!-- Redes sociais -->
+            <section class="rodape-redes">
+                <h2 class="rodape-titulo">Redes sociais</h2>
+                <ul id="lista-rodape-redes" class="lista-rodape">
+                    <li><img src="../images/instagram-logo.png" alt="Logo Instagram"></li>
+                    <li><img src="../images/twitter-logo.png" alt="Logo Twitter"></li>
+                    <li><img src="../images/facebook-logo.png" alt="Logo Facebook"></li>
+                    <li><img src="../images/linkedin-logo.png" alt="Logo LinkedIn"></li>
+                    <li><img src="../images/youtube-logo.png" alt="Logo YouTube"></li>
+                </ul>
+            </section>
         </section>
 
-        <!-- Site -->
-        <section class="rodape-site">
-            <h2 class="rodape-titulo">O site</h2>
-            <ul class="lista-rodape">
-                <li><a href="#">Conta</a></li>
-                <li><a href="#">Termos de uso</a></li>
-                <li><a href="#">Teste de velocidade</a></li>
-                <li><a href="#">Preferências de cookies</a></li>
-            </ul>
-        </section>
-
-        <!-- Contato -->
-        <section class="rodape-contato">
-            <h2 class="rodape-titulo">Contatos</h2>
-            <ul class="lista-rodape">
-                <li><a href="#">0800 323 289 21</a></li>
-                <li><a href="#">0800 263 856 04</a></li>
-                <li><a href="#">central@4rvideo.com.br</a></li>
-                <li><a href="#">ouvidoria@4rvideo.com.br</a></li>
-            </ul>
-        </section>
-
-        <!-- Redes sociais -->
-        <section class="rodape-redes">
-            <h2 class="rodape-titulo">Redes sociais</h2>
-            <ul class="lista-rodape">
-                <li><img src="../images/instagram-logo.png" alt="Logo Instagram"></li>
-                <li><img src="../images/twitter-logo.png" alt="Logo Twitter"></li>
-                <li><img src="../images/facebook-logo.png" alt="Logo Facebook"></li>
-                <li><img src="../images/linkedin-logo.png" alt="Logo LinkedIn"></li>
-                <li><img src="../images/youtube-logo.png" alt="Logo YouTube"></li>
-            </ul>
+        <section class="rodape-copyright">
+            <p>
+                &copy; 2023 4R Tech. Todos os direitos reservados. 4R Video é um serviço de assinatura paga.
+                <br>
+                Av. Fulano Ciclano, 106, Teresópolis/RJ - CEP 25976-045, Brasil e CNPJ 17.185.793/0001-63
+            </p>
         </section>
     </footer>
 </body>
