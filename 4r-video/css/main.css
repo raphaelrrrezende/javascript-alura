@@ -6,7 +6,7 @@
 
 :root {
     --cor-fundo: #0a0b1a;
-    --cor-footer: #14141e;;
+    --cor-footer: #14141e;
     --cor1: #323980;
     --cor2: #4B56BF;
     --cor3: #6473FF;
@@ -120,6 +120,7 @@ body {
 table {
     border: 1px solid var(--cor-fundo);
     border-collapse: collapse;
+    margin-bottom: 50px;
 }
 
 th, td {

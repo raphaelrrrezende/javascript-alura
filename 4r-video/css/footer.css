@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+:root {
+    --cor-fonte1: #bfbfbf;
+    --cor-fonte2: #e1e1eb;
+}
+
 footer {
     background-color: var(--cor-footer);
     padding: 3em 1em;
@@ -21,7 +26,7 @@ footer {
 
 .lista-rodape > li > a {
     text-decoration: none;
-    color: #bfbfbf;
+    color: var(--cor-fonte);
     font-size: 1.2em;
 }
 
@@ -40,4 +45,5 @@ footer {
 .rodape-copyright {
     text-align: center;
     font-size: 1em;
+    color: var(--cor-fonte2);
 }

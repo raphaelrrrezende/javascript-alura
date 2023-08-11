@@ -57,3 +57,42 @@ header {
     background-color: #ffffff;
     border: 1px solid #000000;
 }
+
+/* ---------- Media Query ---------- */
+
+@media screen and (max-width: 600px) {
+
+    .cabecalho-logo {
+        font-size: 3em;
+        margin-top: 14px;
+    }
+
+    .botao-assine, .botao-entrar {
+        font-size: 1.15em;
+        padding: 6px;
+        margin-top: 32px;
+        margin-right: 12px;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    header {
+        height: 120px;
+    }
+
+    .cabecalho-logo {
+        font-family: var(--fonte-logo);
+        font-size: 4em;
+        margin-top: 10px;
+    }
+
+    .botao-assine, .botao-entrar {
+        font-size: 1.65em;
+        padding: 10px;
+        margin-top: 18px;
+        margin-right: 18px;
+    }
+
+}
