@@ -28,6 +28,7 @@ body {
 }
 
 /* ---------- Apresentação ---------- */
+
 #fundo-inicio {
     text-align: center;
     font-size: 1.8em;
@@ -140,4 +141,29 @@ td {
 .planos-topico {
     color: var(--cor2);
     font-weight: 900;
+}
+
+/* ---------- Media Query ---------- */
+
+@media screen and (max-width: 880px) {
+
+    #fundo-inicio {
+        font-size: 1.6em;
+        padding: 200px 25px;
+    }
+
+    .apresentacao-card {
+        font-size: 0.8em;
+        padding: 100px 25px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .apresentacao-card {
+        font-size: 0.8em;
+        padding: 280px 25px;
+    }
+
 }
