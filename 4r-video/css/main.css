@@ -165,5 +165,13 @@ td {
         font-size: 0.8em;
         padding: 280px 25px;
     }
+ 
+}
+
+@media screen and (min-width: 750px) {
+
+    #apresentacao-um, #apresentacao-dois, #apresentacao-tres {
+        background-position-y: -20px;
+    }
 
 }
