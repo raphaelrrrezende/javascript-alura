@@ -26,13 +26,13 @@ footer {
 
 .lista-rodape > li > a {
     text-decoration: none;
-    color: var(--cor-fonte);
+    color: var(--cor-fonte1);
     font-size: 1.2em;
 }
 
 .lista-rodape > li > a:hover {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--cor-fonte2);
     font-size: 1.2em;
 }
 
